@@ -15,29 +15,29 @@
 NULL
 #' Dataset of meteorological measures
 #' 
-#' A list of 40 data frames (one for each station of the meteoroglical network), with 
+#' A list of 28 data frames (one for each station of the meteorological network), with 
 #' monthly time series of precipitation and temperature (minimum and maximum).
 #' 
 #' @docType data
 #' @keywords datasets
 #' @name lista_cli
 #' @usage data(Trent_climate)
-#' @format list of 28 elements, each is a data frame of 5 variables and 636 observations
+#' @format List of 28 elements, each is a data frame of 5 variables and 636 observations
 NULL
 #' Precipitation
 #' 
-#' the daily data frame of precipitation for a number of stations. It is used in function  
+#' The daily data frame of precipitation for a number of stations. It is used in function  
 #' \code{\link{oiv_ind}}
 #' 
 #' @docType data
 #' @keywords datasets
 #' @name P
 #' @usage data(Trent_climate)
-#' @format data frame: 19358 obervations of 15 variables (stations)
+#' @format Data frame: 19358 obervations of 39 variables (stations)
 NULL
 #' Mean daily temperature
 #' 
-#' the daily data frame of mean daily temperature for a number of stations, used in function 
+#' The daily data frame of mean daily temperature for a number of stations, used in function 
 #'  \code{\link{oiv_ind}}
 #'  
 #'  
@@ -45,11 +45,11 @@ NULL
 #' @keywords datasets
 #' @name Tm
 #' @usage data(Trent_climate)
-#' @format data frame: 19358 obervations of 15 variables (stations)
+#' @format Data frame: 19358 obervations of 15 variables (stations)
 NULL
 #' Minimum daily temperature
 #' 
-#' the daily data frame of minimum daily temperature for a number of stations, used in function 
+#' The daily data frame of minimum daily temperature for a number of stations, used in function 
 #'  \code{\link{oiv_ind}}
 #'  
 #'  
@@ -57,11 +57,11 @@ NULL
 #' @keywords datasets
 #' @name Tn
 #' @usage data(Trent_climate)
-#' @format data frame: 19358 obervations of 15 variables (stations)
+#' @format Data frame: 19358 obervations of 15 variables (stations)
 NULL
 #' Maximum daily temperature
 #' 
-#' the daily data frame of maximum daily temperature for a number of stations, used in function 
+#' The daily data frame of maximum daily temperature for a number of stations, used in function 
 #'  \code{\link{oiv_ind}}
 #'  
 #'  
@@ -69,18 +69,18 @@ NULL
 #' @keywords datasets
 #' @name Tx
 #' @usage data(Trent_climate)
-#' @format data frame: 19358 obervations of 15 variables (stations)
+#' @format Data frame: 19358 obervations of 15 variables (stations)
 NULL
 #' Water balance
 #' 
-#' is the first list (\code{W_balance}) in \code{thornt_lst} organized according to stations. 
+#' Is the first list (\code{W_balance}) in \code{thornt_lst} organized according to stations. 
 #' See Examples in function \code{\link{thornthwaite}} for its construction.
 #'  
 #' @docType data
 #' @keywords datasets
 #' @name W_balance
 #' @usage data(Trent_climate)
-#' @format list of 28 elements, each is a data frame of 5 variables and 636 observations
+#' @format List of 28 elements, each is a data frame of 5 variables and 636 observations
 NULL
 #' Aridity index
 #' 
@@ -91,22 +91,22 @@ NULL
 #' @keywords datasets
 #' @name arid_ind_tables
 #' @usage data(Trent_climate)
-#' @format  list formed by six data frames. 
+#' @format  List formed by six data frames. 
 NULL
-#' climatic normals of precipitation and temperatures
+#' Climatic normals of precipitation and temperatures
 #' 
-#' climatic normals of precipitation and temperature (minimum, maximum, and mean) for the 
+#' Climatic normals of precipitation and temperature (minimum, maximum, and mean) for the 
 #' climatic period 1981 - 2010. It has been calculated by function \code{\link{climate}}.
 #'  
 #' @docType data
 #' @keywords datasets
 #' @name clima_81_10
 #' @usage data(Trent_climate)
-#' @format  a list (one table for each station) of 40 monthly climatic normals
+#' @format  A list (one table for each station) of 28 monthly climatic normals
 NULL
-#' radiative energy coefficients
+#' Radiative energy coefficients
 #' 
-#' "radiative energy coefficients" for Hargreaves' equation, corresponding to the 
+#' "Radiative energy coefficients" for Hargreaves' equation, corresponding to the 
 #' daily extra-atmospheric solar radiation energy. It is the output of function 
 #' \code{\link{ExAtRa}}.
 #'  
@@ -114,9 +114,9 @@ NULL
 #' @keywords datasets
 #' @name coeff_rad
 #' @usage data(Trent_climate)
-#' @format  an array of 12 numerics
+#' @format  An array of 12 numerics
 NULL
-#' continentality/oceanicity indices
+#' Continentality/oceanicity indices
 #' 
 #' Used for reference in continentality/oceanicity indices assessment (see function 
 #' \code{\link{contin}} and references for data sources).
@@ -125,30 +125,31 @@ NULL
 #' @keywords datasets
 #' @name continental_ind_tables
 #' @usage data(Trent_climate)
-#' @format  list of 4 data frames
+#' @format  List of 4 data frames
 NULL
-#' geographical position for each meteorological station
-#' coordinates and elevation for each station in the data set. Coordinates are geographical 
+#' Geographical position for each meteorological station
+#' 
+#' Coordinates and elevation for each station in the data set. Coordinates are geographical 
 #' and elevation is measured in meters above mean sea level.
 #' 
 #' @docType data
 #' @keywords datasets
 #' @name coord_elev
 #' @usage data(Trent_climate)
-#' @format  data frame of 40 observations of 4 variables
+#' @format  Data frame of 40 observations of 4 variables
 NULL
-#' Monthly quantiles of the meteorological varaibales
+#' Monthly quantiles of the meteorological variables
 #' 
-#' the second list (\code{quantiles}) in \code{thornt_lst} organized according to stations. 
+#' The second list (\code{quantiles}) in \code{thornt_lst} organized according to stations. 
 #' See Examples in function \code{\link{thornthwaite}} for its construction.
 #' 
 #' @docType data
 #' @keywords datasets
 #' @name quantiles
 #' @usage data(Trent_climate)
-#' @format  data frame of 40 observations of 4 variables
+#' @format  Data frame of 28 observations of 4 variables
 NULL
-#' input for the Thornthwaite function
+#' Input for the Thornthwaite function
 #' 
 #' For every station, the first element (a list, \code{Thornth._W._bal}) reports the monthly 
 #' series of water balance quantities for the station, each in one data frame (see function 

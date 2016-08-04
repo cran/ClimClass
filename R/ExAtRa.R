@@ -16,7 +16,7 @@ NULL
 #' @details 
 #' If \code{unit} = "mm", the calculated value represents the water height evaporated by solar radiation, calculated by the latent heat for vaporization. Otherwise (\code{unit} = "MJ") output is the solar radiation energy in MJ.
 #' Temperature \code{T} is used only for the assessment of latent heat of vaporization, when \code{unit} = "mm". 
-#' 
+#' @seealso \code{\link{arid}}
 #' @export
 #' 
 #' @examples
@@ -31,7 +31,6 @@ NULL
 #' # generates 12 values, one for each month
 #' coeff_rad<- ExAtRa(DOY=yDay,latitude=latitude, unit="mm")
 #' 
-#'   @seealso \code{\link{arid}}
 
 
 

@@ -36,9 +36,9 @@ NULL
 #'
 #' 3 Emberger - Q (annual only). Emberger, 1955.
 #'
-#' 4 Lang - R (annual only). Lang, R., 1920.
+#' 4 Lang - R (annual only) - only for positive mean annual temperature. Lang, R., 1920.
 #'
-#' 5 Rivas-Martinez - Io (annual only). Rivas - Martinez, website http://www.iao.florence.it/training/geomatics/BenSlimane/Marocco21_3_1_2.htm
+#' 5 Rivas-Martinez - Io (annual only). Rivas - Martinez, website http://www.globalbioclimatics.org/
 #'
 #' 6 UNEP - Ai (annual only). UNEP, 1997.
 #'
@@ -55,7 +55,7 @@ NULL
 #'
 #' Lang, R., 1920. Verwitterung und Bodenbildung als Einfuehrung in die Bodenkunde. Schweizerbart Science Publishers, Stuttgart
 #'
-#' Rivas-Martinez - http://www.iao.florence.it/training/geomatics/BenSlimane/Marocco21_3_1_2.htm
+#' Rivas-Martinez -  http://www.globalbioclimatics.org/
 #'
 #' Thornthwaite, C. W., 1948: An Approach toward a Rational Classification of Climate. Geographical Review, Vol. 38, No. 1(Jan.):55-94.
 #'
@@ -69,8 +69,6 @@ NULL
 #' # It can be the output of function climate.
 #' # coeff_rad is a monthly vector of average daily extra-atmospheric solar radiation, 
 #' # calculated e.g. by function ExAtRa.
-#' 
-#' aridity_Y<-lapply(clima_81_10, coeff_rad=coeff_rad, FUN=arid, monthly=FALSE, indices=c(1,2,5))
 #'
 #' @seealso \code{\link{climate}}, \code{\link{ExAtRa}}
 
@@ -84,7 +82,7 @@ arid<- function(clim_norm, coeff_rad=NULL, coeff_Hargr = rep(0.75,12), monthly=F
     # De Martonne
     Ia_y<- sum(clim_norm$P) / mean(clim_norm$Tm + 10)
     # Lang
-    R<- sum(clim_norm$P)/mean(clim_norm$Tm)
+    if(mean(clim_norm$Tm) > 0) R<- sum(clim_norm$P)/mean(clim_norm$Tm) else R<-NA
     # Emberger
     Q<- 2000*sum(clim_norm$P)/(max(clim_norm$Tx + 273.15)^2 - min(clim_norm$Tn  + 273.15)^2) 
     # Rivas-Martinez

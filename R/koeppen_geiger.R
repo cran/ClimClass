@@ -55,11 +55,17 @@ NULL
 #' \code{class} = climatic class. If \code{class.nr}=\code{FALSE} (default), it results from the merging of "climate" (A to E) and sub-type(s). 
 #' If \code{class.nr}=\code{TRUE} the class comes from the sum of the numeric equivalent of "type" (A,..E) + "first sub type" (only first letter),
 #' according to the following scheme:
+#' 
 #'  A  B  C  D  E
+#'  
 #'  10 20 30 40 50  
-#'  f  W  s  s  T   1        
-#'  w  S  w  w  F   2
-#'  m     f  f      3
+#'  
+#'  f  W  s  s  T -->  1
+#'  
+#'  w  S  w  w  F -->  2
+#'  
+#'  m     f  f    -->  3
+#'  
 #'
 #' (e.g: Af = 11, Cw = 32, EF = 52)
 #' 
