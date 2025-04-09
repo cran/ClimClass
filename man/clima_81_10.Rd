@@ -4,7 +4,9 @@
 \name{clima_81_10}
 \alias{clima_81_10}
 \title{Climatic normals of precipitation and temperatures}
-\format{A list (one table for each station) of 28 monthly climatic normals}
+\format{
+A list (one table for each station) of 28 monthly climatic normals
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ Climatic normals of precipitation and temperature (minimum, maximum, and mean) f
 climatic period 1981 - 2010. It has been calculated by function \code{\link{climate}}.
 }
 \keyword{datasets}
-

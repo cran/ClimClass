@@ -48,7 +48,7 @@ NULL
 #' 
 #' Please, refer to the quoted references for details.
 #' 
-#' This function requires the function \code{\link{daylength}} (libr. \code{\link{geosphere}}).
+#' This function requires the function \code{\link[geosphere]{daylength}} from the \pkg{geosphere} package.
 #' @export
 #'
 #' @references 

@@ -17,12 +17,12 @@ NULL
 #' @author Emanuele Cordano
 #' 
 #' @export
-#' @seealso \url{www.climatol.eu}, \url{http://www.zoolex.org/walter.html}
+#' @seealso \url{https://www.climatol.eu}
 #' 
 #' @examples 
 #' 
 #' ### Not Run!! 
-#' # Install 'climatol' from 'http://www.climatol.eu/' first
+#' # Install 'climatol' from 'https://www.climatol.eu/' first
 #' ### Then load the package, uncomment and run the following line
 #' # library(climatol)
 #' 	library(stringr)
@@ -38,7 +38,7 @@ NULL
 #' datcli <- as.datcli(TrentinoClimateDf,station=station)
 #' 
 #' ### Not Run!! 
-#' # Install 'climatol' from 'http://www.climatol.eu/' first
+#' # Install 'climatol' from 'https://www.climatol.eu/' first
 #' ### Then load the package, uncomment and run the following line
 #' # diagwl(datcli,est=station,alt=100,per="Period",mlab="en") ## plots a Walter-Lieth's climograph
 #' 

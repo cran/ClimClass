@@ -1,9 +1,11 @@
 Package: ClimClass
 Type: Package
 Title: Climate Classification According to Several Indices
-Version: 2.1.0
-Date: 2015-08-07
-Authors@R: c(person("Emanuele","Eccel", role=c("aut","cre"), email="emanuele.eccel@fmach.it"),
+Version: 2.1.1
+Encoding: UTF-8
+Date: 2025-04-09
+Authors@R: c(person("Emanuele","Eccel", role=c("aut")),
+             person("Fabio","Zottele", role=c("aut", "cre"), email="fabio.zottele@fmach.it"),  
              person("Emanuele","Cordano", role=c("aut")), 
              person("Giambattista","Toller", role=c("aut")),
              person(family="Fondazione Edmund Mach", role=c("cph")))
@@ -16,13 +18,14 @@ Depends: R(>= 2.10.0)
 Imports: geosphere, ggplot2, reshape2
 Suggests: stringr
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2016-08-04 13:19:54 UTC; fabio
-Author: Emanuele Eccel [aut, cre],
+Maintainer: Fabio Zottele <fabio.zottele@fmach.it>
+Packaged: 2025-04-09 13:31:59 UTC; zottelef
+Author: Emanuele Eccel [aut],
+  Fabio Zottele [aut, cre],
   Emanuele Cordano [aut],
   Giambattista Toller [aut],
   Fondazione Edmund Mach [cph]
-Maintainer: Emanuele Eccel <emanuele.eccel@fmach.it>
 Repository: CRAN
-Date/Publication: 2016-08-04 21:43:32
+Date/Publication: 2025-04-09 13:50:02 UTC

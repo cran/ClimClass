@@ -41,4 +41,3 @@ clima_81_10<-lapply(lista_cli, FUN=climate, first.yr=1981, last.yr=2010, max.per
 \author{
 Emanuele Eccel
 }
-

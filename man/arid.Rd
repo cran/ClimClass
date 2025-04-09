@@ -4,8 +4,13 @@
 \alias{arid}
 \title{Aridity indices}
 \usage{
-arid(clim_norm, coeff_rad = NULL, coeff_Hargr = rep(0.75, 12),
-  monthly = FALSE, indices = 1:6)
+arid(
+  clim_norm,
+  coeff_rad = NULL,
+  coeff_Hargr = rep(0.75, 12),
+  monthly = FALSE,
+  indices = 1:6
+)
 }
 \arguments{
 \item{clim_norm}{climatic normals}
@@ -67,9 +72,6 @@ data(Trent_climate)
 # calculated e.g. by function ExAtRa.
 
 }
-\author{
-Emanuele Eccel
-}
 \references{
 De Martonne E., 1925: Traite de Geographie Physique: 3 tomes, Paris.
 
@@ -88,4 +90,6 @@ UNEP (United Nations Environment Programme), 1997. World atlas of desertificatio
 \seealso{
 \code{\link{climate}}, \code{\link{ExAtRa}}
 }
-
+\author{
+Emanuele Eccel
+}

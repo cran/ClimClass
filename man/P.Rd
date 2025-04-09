@@ -4,7 +4,9 @@
 \name{P}
 \alias{P}
 \title{Precipitation}
-\format{Data frame: 19358 obervations of 39 variables (stations)}
+\format{
+Data frame: 19358 obervations of 39 variables (stations)
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ The daily data frame of precipitation for a number of stations. It is used in fu
 \code{\link{oiv_ind}}
 }
 \keyword{datasets}
-

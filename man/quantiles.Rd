@@ -4,7 +4,9 @@
 \name{quantiles}
 \alias{quantiles}
 \title{Monthly quantiles of the meteorological variables}
-\format{Data frame of 28 observations of 4 variables}
+\format{
+Data frame of 28 observations of 4 variables
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ The second list (\code{quantiles}) in \code{thornt_lst} organized according to s
 See Examples in function \code{\link{thornthwaite}} for its construction.
 }
 \keyword{datasets}
-

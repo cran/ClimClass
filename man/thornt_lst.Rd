@@ -4,7 +4,9 @@
 \name{thornt_lst}
 \alias{thornt_lst}
 \title{Input for the Thornthwaite function}
-\format{S3 object: a "hyperlist" (list of lists of lists), one list of lists for each station}
+\format{
+S3 object: a "hyperlist" (list of lists of lists), one list of lists for each station
+}
 \usage{
 data(Trent_climate)
 }
@@ -15,4 +17,3 @@ series of water balance quantities for the station, each in one data frame (see 
 monthly quantiles for the same quantities.
 }
 \keyword{datasets}
-

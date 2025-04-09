@@ -4,7 +4,9 @@
 \name{Tm}
 \alias{Tm}
 \title{Mean daily temperature}
-\format{Data frame: 19358 obervations of 15 variables (stations)}
+\format{
+Data frame: 19358 obervations of 15 variables (stations)
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ The daily data frame of mean daily temperature for a number of stations, used in
  \code{\link{oiv_ind}}
 }
 \keyword{datasets}
-

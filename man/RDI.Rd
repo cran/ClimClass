@@ -4,9 +4,16 @@
 \alias{RDI}
 \title{Riou's drought index}
 \usage{
-RDI(series, clim_norm = NULL, first.yr = NULL, last.yr = NULL,
-  TAW = 200, coeff_rad, coeff_Hargr = rep(0.75, 12), quant = c(0, 0.1,
-  0.5))
+RDI(
+  series,
+  clim_norm = NULL,
+  first.yr = NULL,
+  last.yr = NULL,
+  TAW = 200,
+  coeff_rad,
+  coeff_Hargr = rep(0.75, 12),
+  quant = c(0, 0.1, 0.5)
+)
 }
 \arguments{
 \item{series}{series of mean monthly weather values}
@@ -64,9 +71,6 @@ data(Trent_climate)
 RDI(lista_cli[[1]], clim_norm=clima_81_10[[1]], first.yr=1981, last.yr=2010, coeff_rad=coeff_rad)
 
 }
-\author{
-Emanuele Eccel
-}
 \references{
 Riou, C. 1994. Le determinisme climatique de la maturation du raisin: application au zonage de la teneur en sucre dans la Communaute Europeenne (E. Commission, ed.).
 Office des Publications Officielles des Communautes Europeennes, Luxembourg, 322p.
@@ -77,4 +81,6 @@ Methodologie de Caracterisation. These de doctorat, Ecole Nationale Superieure A
 \seealso{
 \code{\link{oiv_ind}},  \code{\link{arid}}
 }
-
+\author{
+Emanuele Eccel
+}

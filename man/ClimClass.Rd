@@ -2,8 +2,8 @@
 % Please edit documentation in R/ClimClass.R
 \docType{package}
 \name{ClimClass}
-\alias{ClimClass}
 \alias{ClimClass-package}
+\alias{ClimClass}
 \title{Classification of climate according to Koeppen - Geiger, of aridity indices, of continentality indices, of water balance after Thornthwaite, of viticultural bioclimatic indices. Drawing climographs: Thornthwaite, Peguy, Bagnouls-Gaussen.}
 \description{
 Classification of climate according to Koeppen - Geiger, of aridity indices, of continentality indices, of water balance after Thornthwaite, of viticultural bioclimatic indices. Drawing climographs: Thornthwaite, Peguy, Bagnouls-Gaussen.
@@ -68,6 +68,7 @@ respectively).
 See a first application in Eccel et al., 2015 and an application more 
 focused on viticultural indices in Eccel et al., 2016.
 }
+
 \references{
 Allen, R.G., Walter, I.A., Elliott, R.L., Howell, T.A., 
 Itenfisu, D., Jensen, M.E., and Snyder, R.L. (eds.), 2005: ASCE 
@@ -136,7 +137,7 @@ Michalet, R., and Souchier, B., 1991: Une approche synthetique biopedoclimatique
 des montagnes mediterraneennes: l'exemple du Maroc septemptrional. 
 Thesis, Univ. J. Fourier, Grenoble, 273 pp
 
-Rivas-Martinez: \url{http://www.globalbioclimatics.org/}
+Rivas-Martinez
 
 Thornthwaite, C. W., 1948: An Approach toward a Rational Classification of Climate. 
 Geographical Review, Vol. 38, No. 1(Jan.):55-94.
@@ -158,6 +159,22 @@ Trewartha, G.T. and Lyle, H.H., 1980: An Introduction to Climate. MacGraw - Hill
 UNEP (United Nations Environment Programme), 1997: World atlas of desertification 
 2ED. UNEP, London
 }
+\author{
+\strong{Maintainer}: Fabio Zottele \email{fabio.zottele@fmach.it}
+
+Authors:
+\itemize{
+  \item Emanuele Eccel
+  \item Emanuele Cordano
+  \item Giambattista Toller
+}
+
+Other contributors:
+\itemize{
+  \item  Fondazione Edmund Mach [copyright holder]
+}
+
+}
 \keyword{"Bagnouls}
 \keyword{"Koeppen}
 \keyword{"bioclimatic}
@@ -172,4 +189,4 @@ UNEP (United Nations Environment Programme), 1997: World atlas of desertificatio
 \keyword{classification"}
 \keyword{continentality}
 \keyword{indices"}
-
+\keyword{internal}

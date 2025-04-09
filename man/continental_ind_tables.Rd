@@ -4,7 +4,9 @@
 \name{continental_ind_tables}
 \alias{continental_ind_tables}
 \title{Continentality/oceanicity indices}
-\format{List of 4 data frames}
+\format{
+List of 4 data frames
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ Used for reference in continentality/oceanicity indices assessment (see function
 \code{\link{contin}} and references for data sources).
 }
 \keyword{datasets}
-

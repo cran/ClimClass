@@ -4,7 +4,9 @@
 \name{coeff_rad}
 \alias{coeff_rad}
 \title{Radiative energy coefficients}
-\format{An array of 12 numerics}
+\format{
+An array of 12 numerics
+}
 \usage{
 data(Trent_climate)
 }
@@ -14,4 +16,3 @@ daily extra-atmospheric solar radiation energy. It is the output of function
 \code{\link{ExAtRa}}.
 }
 \keyword{datasets}
-

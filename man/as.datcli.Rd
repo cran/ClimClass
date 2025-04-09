@@ -4,10 +4,18 @@
 \alias{as.datcli}
 \title{as.datcli}
 \usage{
-as.datcli(df, station, MonthField = "month", PrecField = "P",
-  MinTempField = "Tn", MaxTempField = "Tx", MeanTempField = "Tm",
-  AbsMinTempField = "AbsTn", AbsMinTempOffset = 4,
-  StationField = "station")
+as.datcli(
+  df,
+  station,
+  MonthField = "month",
+  PrecField = "P",
+  MinTempField = "Tn",
+  MaxTempField = "Tx",
+  MeanTempField = "Tm",
+  AbsMinTempField = "AbsTn",
+  AbsMinTempOffset = 4,
+  StationField = "station"
+)
 }
 \arguments{
 \item{df}{data frame or list}
@@ -36,7 +44,7 @@ Tranforms a data frame (see example dataset) into a data frame format like  '\co
 \examples{
 
 ### Not Run!! 
-# Install 'climatol' from 'http://www.climatol.eu/' first
+# Install 'climatol' from 'https://www.climatol.eu/' first
 ### Then load the package, uncomment and run the following line
 # library(climatol)
 	library(stringr)
@@ -52,15 +60,14 @@ Tranforms a data frame (see example dataset) into a data frame format like  '\co
 datcli <- as.datcli(TrentinoClimateDf,station=station)
 
 ### Not Run!! 
-# Install 'climatol' from 'http://www.climatol.eu/' first
+# Install 'climatol' from 'https://www.climatol.eu/' first
 ### Then load the package, uncomment and run the following line
 # diagwl(datcli,est=station,alt=100,per="Period",mlab="en") ## plots a Walter-Lieth's climograph
 
 }
+\seealso{
+\url{https://www.climatol.eu}
+}
 \author{
 Emanuele Cordano
 }
-\seealso{
-\url{www.climatol.eu}, \url{http://www.zoolex.org/walter.html}
-}
-

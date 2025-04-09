@@ -40,10 +40,9 @@ latitude<-46
 coeff_rad<- ExAtRa(DOY=yDay,latitude=latitude, unit="mm")
 
 }
-\author{
-Emanuele Eccel
-}
 \seealso{
 \code{\link{arid}}
 }
-
+\author{
+Emanuele Eccel
+}

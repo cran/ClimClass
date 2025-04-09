@@ -1,12 +1,4 @@
-# TODO: Add comment
-# 
-# Author: ecor
-###############################################################################
-
-NULL
 #' @title Peguy Climograph
-#' 
-#' 
 #' @description Representation of Peguy Climograph from monthly weather data (Mean Temperature, Precipitation)
 #' 
 #' 

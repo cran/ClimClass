@@ -4,10 +4,19 @@
 \alias{thornthwaite}
 \title{Thornthwaite and Mather's water balance}
 \usage{
-thornthwaite(series, latitude, clim_norm = NULL, first.yr = NULL,
-  last.yr = NULL, quant = c(0, 0.1, 0.25, 0.5, 0.75, 0.9, 1),
-  snow.init = 20, Tsnow = -1, TAW = 100, fr.sn.acc = 0.95,
-  snow_melt_coeff = 1)
+thornthwaite(
+  series,
+  latitude,
+  clim_norm = NULL,
+  first.yr = NULL,
+  last.yr = NULL,
+  quant = c(0, 0.1, 0.25, 0.5, 0.75, 0.9, 1),
+  snow.init = 20,
+  Tsnow = -1,
+  TAW = 100,
+  fr.sn.acc = 0.95,
+  snow_melt_coeff = 1
+)
 }
 \arguments{
 \item{series}{the monthly series of temperature and precipitation.}
@@ -65,7 +74,7 @@ The output function is a list of two lists of data frames (balance and quantile)
 
 Please, refer to the quoted references for details.
 
-This function requires the function \code{\link{daylength}} (libr. \code{\link{geosphere}}).
+This function requires the function \code{\link[geosphere]{daylength}} from the \pkg{geosphere} package.
 }
 \examples{
 
@@ -98,9 +107,6 @@ for(k in 1 : length(lista_cli))
  names(W_balance)<-names(thornt_lst); names(quantiles)<-names(thornt_lst)
  
 }
-\author{
-Giambattista Toller and Emanuele Eccel
-}
 \references{
 Thornthwaite, C. W., 1948: An Approach toward a Rational Classification of Climate. Geographical Review, Vol. 38, No. 1(Jan.):55-94.
 
@@ -111,4 +117,6 @@ Thornthwaite, C. W., and Mather, J.R., 1957: Instructions and tables for computi
 \seealso{
 \code{\link{climate}}, \code{\link{ExAtRa}}, \code{\link{plot.thornthwaite}}
 }
-
+\author{
+Giambattista Toller and Emanuele Eccel
+}

@@ -4,10 +4,20 @@
 \alias{oiv_ind}
 \title{OIV bioclimatic indices for viticulture}
 \usage{
-oiv_ind(daily_Tn = NULL, daily_Tx = NULL, daily_Tm = NULL,
-  daily_P = NULL, first.yr = NULL, last.yr = NULL, subs_missing = TRUE,
-  coeff_HI = 1.04, quant_Tn_rest = 0.5, quant_Tn_veg = 0.5,
-  quant_Tx_veg = 0.5, indices = 1:10)
+oiv_ind(
+  daily_Tn = NULL,
+  daily_Tx = NULL,
+  daily_Tm = NULL,
+  daily_P = NULL,
+  first.yr = NULL,
+  last.yr = NULL,
+  subs_missing = TRUE,
+  coeff_HI = 1.04,
+  quant_Tn_rest = 0.5,
+  quant_Tn_veg = 0.5,
+  quant_Tx_veg = 0.5,
+  indices = 1:10
+)
 }
 \arguments{
 \item{daily_Tn}{series of daily minimum temperature (data frame). Must include the following columns (and names): "year", "month", "day" and one or more station id(s), each column one Tn series.}
@@ -84,9 +94,6 @@ data(Trent_climate)
 oiv_ind(daily_Tn=Tn,daily_Tx=Tx, daily_P=P, first.yr=1981, last.yr=2010, subs_missing=FALSE)
 
 }
-\author{
-Emanuele Eccel
-}
 \references{
 Amerine, M.A., and Winkler, A.J., 1944. Composition and quality of musts and wines of California grapes. Hilgardia. 15(6): 493-673.
 
@@ -105,4 +112,6 @@ Tonietto, J., and Carbonneau, A., 2004. A multicriteria climatic classification 
 \seealso{
 \code{\link{RDI}}
 }
-
+\author{
+Emanuele Eccel
+}

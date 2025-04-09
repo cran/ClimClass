@@ -112,7 +112,7 @@
 #'@references Michalet, R., and Souchier, B., 1991: Une approche synthetique biopedoclimatique 
 #'des montagnes mediterraneennes: l'exemple du Maroc septemptrional. 
 #'Thesis, Univ. J. Fourier, Grenoble, 273 pp
-#'@references Rivas-Martinez: \url{http://www.globalbioclimatics.org/}
+#'@references Rivas-Martinez
 #'@references Thornthwaite, C. W., 1948: An Approach toward a Rational Classification of Climate. 
 #'Geographical Review, Vol. 38, No. 1(Jan.):55-94.
 #'@references Thornthwaite, C. W., and Mather, J.R., 1955: The water balance.  Publications in 
@@ -127,6 +127,5 @@
 #'5th Ed. Appendix: Koeppen's Classification of Climates.
 #'@references UNEP (United Nations Environment Programme), 1997: World atlas of desertification 
 #'2ED. UNEP, London
-#' @docType package
-#' @name ClimClass
-NULL
+#'@keywords internal
+"_PACKAGE"

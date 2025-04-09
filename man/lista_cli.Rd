@@ -4,7 +4,9 @@
 \name{lista_cli}
 \alias{lista_cli}
 \title{Dataset of meteorological measures}
-\format{List of 28 elements, each is a data frame of 5 variables and 636 observations}
+\format{
+List of 28 elements, each is a data frame of 5 variables and 636 observations
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ A list of 28 data frames (one for each station of the meteorological network), w
 monthly time series of precipitation and temperature (minimum and maximum).
 }
 \keyword{datasets}
-

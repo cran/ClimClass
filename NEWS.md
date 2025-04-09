@@ -1,4 +1,14 @@
-﻿ClimClass v2.1.0 
+ClimClass v2.1.1
+================
+
+Maintenance release:
+
+* Fixed Rd documentation cross-reference issues reported by CRAN checks.
+* Cleaned up roxygen2 documentation (e.g., `@title`, `@docType`) to comply with latest standards.
+* Added UTF-8 encoding to DESCRIPTION file.
+* No changes to package functionality or results.
+
+ClimClass v2.1.0 
 =========
 
 Changes:

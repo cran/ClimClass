@@ -18,4 +18,3 @@ Series like "Txxxx" were supplied by the Autonomous Province of Trento - Meteotr
 Series like "FEMxx" were supplied by Fondazione Edmund Mach, San Michele all'Adige (I).
 }
 \keyword{datasets}
-

@@ -4,7 +4,9 @@
 \name{coord_elev}
 \alias{coord_elev}
 \title{Geographical position for each meteorological station}
-\format{Data frame of 40 observations of 4 variables}
+\format{
+Data frame of 40 observations of 4 variables
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ Coordinates and elevation for each station in the data set. Coordinates are geog
 and elevation is measured in meters above mean sea level.
 }
 \keyword{datasets}
-

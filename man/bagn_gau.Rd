@@ -4,9 +4,19 @@
 \alias{bagn_gau}
 \title{Bagnouls - Gaussen graphs}
 \usage{
-bagn_gau(clim_norm_sta, save_dir = NULL, format = NULL, main_title = NULL,
-  st_name = NULL, trace_grid = TRUE, tick_step = 20, bar_width = 30,
-  bar_col = "grey", trace_0.line = TRUE, ...)
+bagn_gau(
+  clim_norm_sta,
+  save_dir = NULL,
+  format = NULL,
+  main_title = NULL,
+  st_name = NULL,
+  trace_grid = TRUE,
+  tick_step = 20,
+  bar_width = 30,
+  bar_col = "grey",
+  trace_0.line = TRUE,
+  ...
+)
 }
 \arguments{
 \item{clim_norm_sta}{data frame with climatic normals}
@@ -62,13 +72,12 @@ for(sta in 1:length(clima_81_10)) {
 
 
 }
-\author{
-Emanuele Eccel
-}
 \references{
 Bagnouls, F., and Gaussen, H., 1953: Saison seche et indice xerothermique. Docum. pour les Cartes des Prod. Veget. Serie: Generalite, 1 (1953), pp. 1-49
 }
 \seealso{
 \code{\link{climate}}
 }
-
+\author{
+Emanuele Eccel
+}

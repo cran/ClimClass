@@ -4,7 +4,9 @@
 \name{arid_ind_tables}
 \alias{arid_ind_tables}
 \title{Aridity index}
-\format{List formed by six data frames.}
+\format{
+List formed by six data frames.
+}
 \usage{
 data(Trent_climate)
 }
@@ -13,4 +15,3 @@ Used for reference in aridity indices assessment (see function \code{\link{arid}
 references for data sources).
 }
 \keyword{datasets}
-

@@ -4,8 +4,13 @@
 \alias{contin}
 \title{Continentality indices}
 \usage{
-contin(clim_norm, latitude = NULL, elevation = NULL,
-  Michalet_correction = FALSE, indices = 1:5)
+contin(
+  clim_norm,
+  latitude = NULL,
+  elevation = NULL,
+  Michalet_correction = FALSE,
+  indices = 1:5
+)
 }
 \arguments{
 \item{clim_norm}{climatic normals}
@@ -67,9 +72,6 @@ for(i in 1:length(clima_81_10)) {
 names(contin_I)<-names(clima_81_10)
 
 }
-\author{
-Emanuele Eccel
-}
 \references{
 Amann, J., 1929: L'hygrothermie du climat, facteur determinant la repartition des especes atlantiques. Revue Bryol., 56:126-133.
 
@@ -88,4 +90,6 @@ Rivas-Martinez: http://www.globalbioclimatics.org/.
 \seealso{
 \code{\link{climate}}
 }
-
+\author{
+Emanuele Eccel
+}

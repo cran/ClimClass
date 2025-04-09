@@ -4,8 +4,12 @@
 \alias{koeppen_geiger}
 \title{Koeppen - Geiger's climate classification}
 \usage{
-koeppen_geiger(clim_norm, A_B_C_special_sub.classes = FALSE,
-  clim.resume_verbose = TRUE, class.nr = FALSE)
+koeppen_geiger(
+  clim_norm,
+  A_B_C_special_sub.classes = FALSE,
+  clim.resume_verbose = TRUE,
+  class.nr = FALSE
+)
 }
 \arguments{
 \item{clim_norm}{average values (climate normals) for the desired period.}
@@ -88,13 +92,12 @@ data(Trent_climate)
 class_clim_l<-lapply(clima_81_10, FUN=koeppen_geiger, A_B_C_special_sub.classes=TRUE)
 
 }
-\author{
-Emanuele Eccel
-}
 \references{
 Trewartha, G.T. and Lyle, H.H., 1980: An Introduction to Climate. MacGraw - Hill, 5th Ed. Appendix: Koeppen's Classification of Climates.
 }
 \seealso{
 \code{\link{climate}}
 }
-
+\author{
+Emanuele Eccel
+}

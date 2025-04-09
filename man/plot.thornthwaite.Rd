@@ -4,10 +4,19 @@
 \alias{plot.thornthwaite}
 \title{Thornthwaite - Mather's quantile plot}
 \usage{
-\method{plot}{thornthwaite}(x, save_dir = NULL, format = NULL,
-  variables = c("Precipitation", "Et0", "Storage", "Prec. - Evap.", "Deficit",
-  "Surplus"), title = TRUE, trace_grid = TRUE, st_name = NULL,
-  u_y_scale_magn = 0.2, l_y_scale_magn = 0, leg_pos = "topleft", ...)
+\method{plot}{thornthwaite}(
+  x,
+  save_dir = NULL,
+  format = NULL,
+  variables = c("Precipitation", "Et0", "Storage", "Prec. - Evap.", "Deficit", "Surplus"),
+  title = TRUE,
+  trace_grid = TRUE,
+  st_name = NULL,
+  u_y_scale_magn = 0.2,
+  l_y_scale_magn = 0,
+  leg_pos = "topleft",
+  ...
+)
 }
 \arguments{
 \item{x}{a list of quantile data frames of water balance variables to be plotted, as output of function \code{\link{thornthwaite}}.}
@@ -70,10 +79,9 @@ leg_pos = "topleft", col=c(1:6,1), pch=c(1:6,16),
 lty=1, horiz=TRUE,  y.intersp=0.1)
 
 }
-\author{
-Emanuele Eccel
-}
 \seealso{
 \code{\link{thornthwaite}}
 }
-
+\author{
+Emanuele Eccel
+}
